@@ -21,5 +21,4 @@ class MyTextView : TextView {
         val args = context.theme.obtainStyledAttributes(attributeSet, R.styleable.MyTextView, 0, 0)
         args.recycle()
     }
-
 }
